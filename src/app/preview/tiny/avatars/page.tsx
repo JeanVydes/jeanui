@@ -10,12 +10,12 @@ import {
 
 export default function AvatarsPreview() {
     let avatars = [
-        <SimpleAvatar />,
-        <AvatarWithStatus />,
-        <AvatarWithInitials />,
-        <AvatarWithOnlyImg />,
-        <AvatarWithOnlyImgAndStatus />,
-        <AvatarWithOnlyInitials />,
+        <SimpleAvatar key={0} />,
+        <AvatarWithStatus key={1} />,
+        <AvatarWithInitials key={2} />,
+        <AvatarWithOnlyImg key={3} />,
+        <AvatarWithOnlyImgAndStatus key={4} />,
+        <AvatarWithOnlyInitials key={5} />,
     ];
 
     return (

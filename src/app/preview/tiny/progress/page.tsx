@@ -3,8 +3,8 @@ import { LinearProgressBar, RadialProgressBar } from "@/components/tiny/progress
 
 export default function ProgressView() {
     let progress = [
-        <LinearProgressBar />,
-        <RadialProgressBar />,
+        <LinearProgressBar key={0} />,
+        <RadialProgressBar key={1} />,
     ];
 
     return (

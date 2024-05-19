@@ -3,12 +3,12 @@ import { BasicButton, ButtonWithShadow, BorderedButton, BasicButtonWithIcon, Bor
 import CodeBanner from '@/components/code';
 
 export default function ButtonsPreview() {
-    let buttons = [<BasicButton />,
-    <ButtonWithShadow />,
-    <BorderedButton />,
-    <BasicButtonWithIcon />,
-    <ButtonWithShadowAndIcon />,
-    <BorderedButtonWithIcon />];
+    let buttons = [<BasicButton key={0} />,
+    <ButtonWithShadow key={1} />,
+    <BorderedButton key={2} />,
+    <BasicButtonWithIcon key={3} />,
+    <ButtonWithShadowAndIcon key={4} />,
+    <BorderedButtonWithIcon key={5} />];
     return (
         <>
             <div className=" absolute">

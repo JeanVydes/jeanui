@@ -3,8 +3,8 @@ import { Spinner, Spinner2} from '@/components/tiny/spinner';
 
 export default function SpinnersPreview() {
     let spinners = [
-        <Spinner />,
-        <Spinner2 />,
+        <Spinner key={0} />,
+        <Spinner2 key={1} />,
     ];
 
     return (

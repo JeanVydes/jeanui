@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export function SimpleAvatar() {
     return (
         <div className="flex items-center">
-            <img className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
+            <img alt="" className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
             <div className="ml-2 flex flex-col">
                 <p className="font-semibold">John Doe</p>
                 <p className="text-xs text-gray-500">Software Engineer</p>
@@ -16,7 +16,7 @@ export function SimpleAvatar() {
 export function AvatarWithStatus() {
     return (
         <div className="flex items-center">
-            <img className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
+            <img alt="" className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
             <div className="ml-2 flex flex-col">
                 <p className="font-semibold">John Doe</p>
                 <p className="text-xs text-gray-500">Software Engineer</p>
@@ -44,7 +44,7 @@ export function AvatarWithInitials() {
 export function AvatarWithOnlyImg() {
     return (
         <div className="flex items-center">
-            <img className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
+            <img alt="" className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
         </div>
     )
 }
@@ -71,7 +71,7 @@ export function AvatarWithOnlyImgAndStatus() {
 
     return (
         <div className="flex">
-            <img className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
+            <img alt="" className="w-10 h-10 rounded-full" src="https://i.scdn.co/image/ab6761670000ecd4a1b2c9183be1d6f8a05ec448" />
             <span id="avatar-status" className="ml-7 bg-red-700 text-right w-3 h-3 rounded-full absolute"></span>
         </div>
     )

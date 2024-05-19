@@ -52,25 +52,25 @@ export default function Home() {
                                 <Link className="hover:underline hover:cursor-pointer" href="/preview/basic/gallery">
                                     <div className="flex flex-row items-center space-x-0.5">
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/017/original/letter-g-magazine-cut-out-element-vector.jpg" />
+                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/017/original/letter-g-magazine-cut-out-element-vector.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/018/original/letter-a-magazine-cut-out-element-vector.jpg" />
+                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/018/original/letter-a-magazine-cut-out-element-vector.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
+                                            <img alt="" className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
+                                            <img alt="" className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/016/original/letter-e-magazine-cut-out-element-vector.jpg" />
+                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/016/original/letter-e-magazine-cut-out-element-vector.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/000/original/letter-r-magazine-cut-out-element-vector.jpg" />
+                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/000/original/letter-r-magazine-cut-out-element-vector.jpg" />
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img className="w-4" src="https://cdn.dribbble.com/users/5914/screenshots/3123466/media/ddf2111d3e6ed4340c4985d8ff4563db.jpg?resize=400x0" />
+                                            <img alt="" className="w-4" src="https://cdn.dribbble.com/users/5914/screenshots/3123466/media/ddf2111d3e6ed4340c4985d8ff4563db.jpg?resize=400x0" />
                                         </div>
                                     </div>
                                 </Link>
