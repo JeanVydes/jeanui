@@ -1,4 +1,5 @@
 import Gallery from '@/components/basic/gallery'
+import CodeBanner from '@/components/code';
 import Image from 'next/image'
 
 export default function () {
@@ -22,6 +23,9 @@ export default function () {
 
     return (
         <>
+            <div className=" absolute">
+                <CodeBanner github_url='https://github.com/JeanVydes/jeanui/blob/dimension137/src/components/basic/gallery.tsx' />
+            </div>
             <div className="w-full z-20">
                 <Gallery elements={elements} />
             </div>
