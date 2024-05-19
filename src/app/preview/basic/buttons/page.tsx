@@ -2,7 +2,7 @@ import Gallery from '@/components/basic/gallery'
 import { BasicButton, ButtonWithShadow, BorderedButton, BasicButtonWithIcon, BorderedButtonWithIcon, ButtonWithShadowAndIcon } from '@/components/basic/buttons'
 import CodeBanner from '@/components/code';
 
-export default function () {
+export default function ButtonsPreview() {
     let buttons = [<BasicButton />,
     <ButtonWithShadow />,
     <BorderedButton />,

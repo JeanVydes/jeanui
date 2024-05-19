@@ -8,7 +8,7 @@ import {
     AvatarWithOnlyInitials,
  } from '@/components/tiny/avatar'
 
-export default function () {
+export default function AvatarsPreview() {
     let avatars = [
         <SimpleAvatar />,
         <AvatarWithStatus />,

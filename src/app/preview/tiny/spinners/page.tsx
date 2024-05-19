@@ -1,7 +1,7 @@
 import CodeBanner from '@/components/code';
 import { Spinner, Spinner2} from '@/components/tiny/spinner';
 
-export default function () {
+export default function SpinnersPreview() {
     let spinners = [
         <Spinner />,
         <Spinner2 />,

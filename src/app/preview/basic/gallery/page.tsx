@@ -2,7 +2,7 @@ import Gallery from '@/components/basic/gallery'
 import CodeBanner from '@/components/code';
 import Image from 'next/image'
 
-export default function () {
+export default function GalleryPreview() {
     let imgs = [
         "https://www.generosliterarios.net/wp-content/uploads/59454254_1005.jpg",
         "https://collectionapi.metmuseum.org/api/collection/v1/iiif/436535/796067/main-image",

@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React, { useEffect, useRef } from 'react';
 
 
-export default function () {
+export default function Home() {
     useEffect(() => {
 
         let typing = document.getElementById('typing');

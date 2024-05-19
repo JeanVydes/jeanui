@@ -1,7 +1,7 @@
 import CodeBanner from '@/components/code'
 import Menu from '@/components/navigation/Blurred Menu'
 
-export default function () {
+export default function BlurredMenuPreview() {
     return (
         <>
             <div className="absolute">

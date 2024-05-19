@@ -4,7 +4,7 @@ import {
     BadgeWithIcon,
  } from '@/components/tiny/badge'
 
-export default function () {
+export default function BadgesPreview() {
     let badges = [
         <SimpleBadge color='bg-red-500' />,
         <SimpleBadge color='bg-yellow-500' />,

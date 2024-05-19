@@ -9,7 +9,7 @@ const font = Quicksand({
   subsets: ["latin"],
 });
 
-export default function Menu() {
+export default function BlurredMenu() {
   useEffect(() => {
     const closeTargets = document.getElementsByClassName('close-target');
     const productsElement = document.getElementById('products-menu');

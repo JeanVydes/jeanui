@@ -1,7 +1,7 @@
 import CodeBanner from "@/components/code";
 import { LinearProgressBar, RadialProgressBar } from "@/components/tiny/progress";
 
-export default function () {
+export default function ProgressView() {
     let progress = [
         <LinearProgressBar />,
         <RadialProgressBar />,
