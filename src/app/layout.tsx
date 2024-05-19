@@ -3,8 +3,8 @@ import { Quicksand } from 'next/font/google'
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Generic description for generic app",
+  title: "JeanUI",
+  description: "a collection of ui components with tailwind",
 };
 
 const font = Quicksand({
