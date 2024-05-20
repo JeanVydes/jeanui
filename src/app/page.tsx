@@ -25,23 +25,23 @@ export default function Home() {
     return (
         <>
             <div className="w-full h-screen grid grid-cols-1 justify-center place-items-center justify-center px-2 md:px-6 lg:px-8">
-                <div className="w-full h-full flex flex-col justify-center items-center text-center">
+                <div className="flex-none w-full flex flex-col justify-center items-center text-center">
                     <span className="font-bold text-xl">JeanUI</span>
                     <Link href="https://github.com/JeanVydes/jeanui" className="pl-2 text-neutral-500 text-sm underline hover:cursor-pointer">GitHub</Link>
                 </div>
-                <div className="w-full flex flex-col justify-center space-y-8 text-md">
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center text-md">
+                <div className="flex-auto w-full flex flex-col justify-center space-y-8 text-md">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-end text-md">
                         <div className="w-full flex flex-col space-y-2 shadow-md shadow-amber-700 px-8 py-2 rounded-2xl h-min">
                             <span className="py-4 font-bold text-lg text-center">B A S I C</span>
                             <div className="flex flex-col pb-6 text-md">
                                 <Link className="hover:underline hover:cursor-pointer" href="/preview/basic/buttons"><button className="px-1 rounded-lg text-neutral-200 bg-amber-700">buttons</button></Link>
-                                <Link className="hover:underline hover:cursor-pointer blur-[4px] backdrop-blur-md" href="/preview/basic/card">
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/basic/card">
                                     <div className="flex flex-row items-center space-x-2">
                                         <span>card</span>
                                         <div className="w-3 h-3 bg-neutral-700 rounded-sm"></div>
                                     </div>
                                 </Link>
-                                <Link className="hover:underline hover:cursor-pointer blur-[4px] backdrop-blur-md" href="/preview/basic/dropdown">
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/basic/dropdown">
                                     <div className="flex flex-row items-center space-x-2">
                                         <span>dropdown</span>
                                         <svg className="w-2 h-2 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -52,25 +52,25 @@ export default function Home() {
                                 <Link className="hover:underline hover:cursor-pointer" href="/preview/basic/gallery">
                                     <div className="flex flex-row items-center space-x-0.5">
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/017/original/letter-g-magazine-cut-out-element-vector.jpg" />
+                                            g
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/018/original/letter-a-magazine-cut-out-element-vector.jpg" />
+                                            a
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
+                                            l
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://as1.ftcdn.net/v2/jpg/05/85/99/78/1000_F_585997883_7zAmSiWLIRcN1FkKnMf5dNrVHj3f9j1P.jpg" />
+                                            l
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/016/original/letter-e-magazine-cut-out-element-vector.jpg" />
+                                            e
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://static.vecteezy.com/system/resources/previews/023/204/000/original/letter-r-magazine-cut-out-element-vector.jpg" />
+                                            r
                                         </div>
                                         <div className="bg-neutral-800 w-4 h-full grid place-items-center text-amber-200">
-                                            <img alt="" className="w-4" src="https://cdn.dribbble.com/users/5914/screenshots/3123466/media/ddf2111d3e6ed4340c4985d8ff4563db.jpg?resize=400x0" />
+                                            y
                                         </div>
                                     </div>
                                 </Link>
@@ -80,25 +80,27 @@ export default function Home() {
                             <span className="py-4 font-bold text-lg text-center">{`<-`} nav {`->`}</span>
                             <div className="flex flex-col pb-6 text-md">
                                 <Link className="hover:underline hover:cursor-pointer" href="/preview/navigation/simple">simple</Link>
-                                <Link className="hover:underline hover:cursor-pointer" href="/preview/navigation/tabs">tabs | tabs</Link>
                                 <Link className="hover:underline hover:cursor-pointer" href="/preview/navigation/blurred-menu">blur<span className="blur-[1px] backdrop-blur-md">red</span></Link>
                                 <Link className="hover:underline hover:cursor-pointer -scale-[1] text-right" href="/preview/navigation/side">epis</Link>
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/navigation/tabs">tabs {">"} tabs</Link>
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/navigation/pagination">5. pagination</Link>
                             </div>
                         </div>
                         <div className="w-full flex flex-col space-y-2 shadow-md shadow-amber-900 px-8 py-2 rounded-2xl h-min cursor-not-allowed">
                             <span className="py-4 font-bold text-lg text-center">forms <span id="typing" className="absolute ml-1">|</span></span>
                             <div className="flex flex-col pb-6 text-md">
-                                <Link className="hover:underline hover:cursor-pointer" href="/preview/forms/input">[input]</Link>
-                                <Link className="hover:underline hover:cursor-pointer flex flex-row items-center space-x-1" href="/preview/forms/checkbox">
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/form/inputs">[input]</Link>
+                                <Link className="hover:underline hover:cursor-pointer flex flex-row items-center space-x-1" href="/preview/form/checkbox">
                                     <input className="w-2 h-2" type="checkbox" placeholder='checkbox'/>
                                     <span>checkbox</span>
                                 </Link>
-                                <Link className="hover:underline hover:cursor-pointer flex flex-row items-center space-x-1" href="/preview/forms/radio">
+                                <Link className="hover:underline hover:cursor-pointer flex flex-row items-center space-x-1" href="/preview/form/radio">
                                     <input className="w-2 h-2" type="radio" placeholder='radio'/>
                                     <span>radio</span>
                                 </Link>
-                                <Link className="hover:underline hover:cursor-pointer" href="/preview/forms/address"><span className="text-neutral-600">#</span>address</Link>
-                                <Link className="hover:underline hover:cursor-pointer" href="/preview/forms/phonenumber"><span className="text-neutral-600">+1</span> ph0n3 numb3r</Link>
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/form/address"><span className="text-neutral-600">#</span>address</Link>
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/form/phonenumber"><span className="text-neutral-600">+1</span> ph0n3 numb3r</Link>
+                                <Link className="hover:underline hover:cursor-pointer" href="/preview/form/payments"><span className="text-neutral-600">****</span> payments</Link>
                             </div>
                         </div>
                         <div className="w-full flex flex-col space-y-2 shadow-md shadow-red-700 px-8 py-2 rounded-2xl h-min">
@@ -133,15 +135,15 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-full h-auto flex flex-col md:flex-row justify-center md:space-x-12 space-y-12 items-center text-md">
-                        <div className="w-full md:w-1/3 flex flex-col space-y-2 shadow-md shadow-red-700 px-8 py-2 rounded-2xl h-min">
-                            <span className="py-4 font-bold text-lg text-center">Coming Soon!</span>
-                            <div className="flex flex-col space-y-4 pb-6 text-sm">
-                                <div className="flex flex-row items-center space-x-1">
+                    <div className="w-full flex flex-col md:flex-row justify-center md:space-x-12 space-y-12 items-center text-md">
+                        <div className="w-full h-1/2 md:w-2/3 flex flex-col space-y-2 shadow-md shadow-red-700 px-8 py-2 rounded-2xl h-min">
+                            <span className="py-1 font-bold text-lg text-center"></span>
+                            <div className="flex flex-col space-y-1 pb-2 text-sm">
+                                <div className="flex flex-row items-center space-x-1 justify-center text-center">
                                     <span>wanna collaborate?</span>
                                     <Link className="text-red-600 underline hover:cursor-pointer" href="https://pornhub.com">check my website!</Link>
                                 </div>
-                                <Link className="text-red-600 underline hover:cursor-pointer" href="https://pornhub.com">more information {`->`}</Link>
+                                <Link className="text-red-600 underline hover:cursor-pointer justify-center text-center" href="https://pornhub.com">more information {`->`}</Link>
                             </div>
                         </div>
                     </div>
