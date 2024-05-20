@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 import { Quicksand } from 'next/font/google'
 import "./globals.css";
 
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={`bg-neutral-950 w-auto h-auto box-border text-neutral-400 ${font.className}`}>{children}</body>
+        <body className={`bg-neutral-950 w-auto h-auto box-border text-neutral-400 ${font.className}`}>
+          {children}
+          <Analytics />
+        </body>
     </html>
   );
 }
